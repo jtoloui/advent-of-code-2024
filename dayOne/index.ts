@@ -3,7 +3,7 @@ import bun from "bun";
 console.profile("total");
 console.time("total");
 
-const data = await bun.file("dayone/input.txt").text();
+const data = await bun.file("dayOne/input.txt").text();
 const lines = data.trim().split("\n");
 const [array1, array2] = parseLinesToArrays(lines);
 

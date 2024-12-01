@@ -4,7 +4,10 @@
 	"type": "module",
 	"scripts": {
 		"dayOne": "bun run dayOne/index.ts",
-		"biome:check": "biome check"
+		"biome:check": "biome check",
+		"biome:format": "biome format",
+		"biome:format:fix": "biome format --fix",
+		"biome:lint": "biome lint"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
