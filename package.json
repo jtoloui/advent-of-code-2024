@@ -1,0 +1,16 @@
+{
+	"name": "advent-of-code-2024",
+	"description": "Advent of Code 2024 using Bun",
+	"type": "module",
+	"scripts": {
+		"dayOne": "bun run dayOne/index.ts",
+		"biome:check": "biome check"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	}
+}
