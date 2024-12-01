@@ -26,14 +26,16 @@ async function sumOfOccurrence() {
 	const freqMap = new Map();
 
 	/**
-	 * e.g array1 = [1, 2, 3, 4, 5]
-	 * e.g array2 = [5, 4, 3, 2, 1]
+	 * e.g array1 = [1, 2, 3, 4, 5, 6]
+	 * e.g array2 = [3, 4, 3, 2, 1, 4]
 	 *
 	 * freqMap = {
 	 * 	1: 1,
 	 * 	2: 1,
 	 * 	3: 2,
 	 * 	4: 2,
+	 * 	5: 1,
+	 * 	6: 1,
 	 * }
 	 */
 	for (const num of array2) {
@@ -41,14 +43,16 @@ async function sumOfOccurrence() {
 	}
 
 	/**
-	 * e.g array1 = [1, 2, 3, 4, 5]
+	 * e.g array1 = [1, 2, 3, 4, 5, 6]
 	 * freqMap = {
 	 * 	1: 1,
 	 * 	2: 1,
 	 * 	3: 2,
 	 * 	4: 2,
+	 * 	5: 1,
+	 * 	6: 1,
 	 * }
-	 *  1*1 + 2*1 + 3*2 + 4*2 = 1 + 2 + 6 + 8 = 17
+	 *  1*1 + 2*1 + 3*2 + 4*2 + 5*1 + 6*1 = 1 + 2 + 6 + 8 + 5 + 6 = 28
 	 */
 	let sumOfAll = 0;
 	for (const num of array1) {
