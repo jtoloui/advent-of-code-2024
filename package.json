@@ -5,6 +5,7 @@
 	"scripts": {
 		"dayOne": "bun run dayOne/index.ts",
 		"dayTwo": "bun run dayTwo/index.ts",
+		"dayThree": "bun run dayThree/index.ts",
 		"biome:check": "biome check",
 		"biome:format": "biome format",
 		"biome:format:fix": "biome format --fix",
