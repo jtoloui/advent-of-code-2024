@@ -5,8 +5,7 @@ console.time("total");
 const MATCHER = /(?:mul\(\d+,\d+\))/gm;
 const DOS_DONTS_MATCHER = /(do\(\))|(don't\(\))|(mul\(\d+,\d+\))/gm;
 
-const data = await bun.file("dayThree/input.txt").text();
-const lines = data.trim();
+const lines = await bun.file("dayThree/input.txt").text();
 
 async function multiplyByMatch() {
 	console.time("multiplyByMatch");
